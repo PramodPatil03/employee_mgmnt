@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+body{
+	margin: 0px;
+	background-image: url(./process//images/plainwhite.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header{
+	background: orange;
+	color: black;
+	padding: 8px 20px 6px 40px;
+	height: 40px;
+}
+
+header h1{
+	display: inline;
+	font-family:'Courier New', Courier, monospace;
+	font-weight: 400;
+	font-size: 30px;
+	font-weight: bold;
+
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+}
+
+nav ul {
+	display: inline;
+	padding: 0px;
+	float: right;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: white;
+	float: left;
+	margin-left: 12px;
+	
+
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;	
+	font-weight: bold;
+}
+
+
+nav ul ul{
+	display: none;
+	position: absolute;
+}
+
+#navli ul li ul:hovar{
+	visibility: visible;
+	display: block;
+}
+
+
+
+
+
+#navli{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.homered {
+	background-color: rgb(2, 2, 2);
+	padding: 2px 5px 5px 5px;
+	border-radius: 15px;
+	line-height: 20px;
+	margin-right: 7px;
+}
+
+.divider {
+	background-color: rgb(17, 17, 17);
+	height: 5px;
+}
+.homeblack{
+	border-radius: 20px;
+	padding: 2px 5px 5px 5px;
+	background-color: gray;
+}
+.homeblack:hover {
+	background-color: rgb(179, 205, 120);
+	padding: 2px 5px 5px 5px;
+	border-radius: 20px;
+
+}
+
+
+table {
+margin: 0px;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:hover {background-color:#76D7C4;}
+
+th {
+  background-color: rgb(225, 156, 255);
+  color: white;
+}
+
+
+
+
+
+
+
+
+
